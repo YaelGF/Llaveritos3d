@@ -1,0 +1,66 @@
+.carousel-container {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.product-card {
+    height: 400px;
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(183 177 231 / 39%);
+    transition: transform 0.3s;
+    margin: 10px 10px;
+}
+
+.product-card img {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #777;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
