@@ -35,3 +35,34 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about-image img {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-us {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .about-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .about-image img {
+        max-width: 80%;
+    }
+}

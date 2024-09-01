@@ -53,3 +53,15 @@ a:hover {
     align-items: center;
     font-size: 35px;
 }
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+        display: none;
+    }
+  }
+  
